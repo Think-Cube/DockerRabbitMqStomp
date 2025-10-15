@@ -1,4 +1,3 @@
-
 name: $(date:yyyyMMdd)-$(rev:.r)
 
 parameters:
@@ -27,7 +26,7 @@ variables:
   - name: VM_IMAGE
     value: ubuntu-latest
   - name: IMAGE_NAME
-    value: "thinkcube/docker-rabbitmq-stomp"
+    value: "thinkcubedev/docker-rabbitmq-stomp"
 
 pool:
   vmImage: $(VM_IMAGE)
